@@ -13,7 +13,7 @@ const DadosHenrylle = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Não tem links uteis :)
+            Não tem links uteis :X
           </a>
         </li>
       </ul>
