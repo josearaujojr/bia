@@ -37,8 +37,8 @@ else
   echo ">[ERRO] Não achei o security group bia-dev. Ele foi criado?"
 fi
 
-if aws iam get-role --role-name role-acesso-ssm &>/dev/null; then
-    echo "[OK] Tudo certo com a role 'role-acesso-ssm'"
+if aws iam get-role --role-name LabRole &>/dev/null; then
+    echo "[OK] Tudo certo com a role 'LabRole'"
 else
     echo ">[ERRO] A role 'role-acesso-ssm' não existe"
 fi
